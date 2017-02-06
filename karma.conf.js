@@ -26,7 +26,7 @@ module.exports = function(config) {
 
     reporters: ['coverage-istanbul'],
     coverageIstanbulReporter: {
-        reports: ['lcov'],
+        reports: ['cobertura'],
         dir: './coverage'
     },
 
